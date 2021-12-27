@@ -61,6 +61,7 @@ root.insert(5)
 root.insert(6)
 root.insert(9)
 root.insert(3)
+root.insert(40)
 
 # find nodes
 root.find(8)
