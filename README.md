@@ -33,3 +33,12 @@ Content has some:
 ## Week Two
 
  Learn and implement basic algorithms such as searching and sorting on different data structures and examine the efficiency of these algorithms. Use recursion to implement these algorithms. Learn advanced data structures such as trees and graphs, implement different methods used to manipulate these data structures, examine their efficiency. Learn how to approach open ended problems and select which data structure to use based on requirements
+
+ ## Week Three
+
+ Go into recursivity in python. Implemented a factorial solution using recursivity. 
+
+ ## Exercises
+
+ Added solution for different exercises in Python 
+
