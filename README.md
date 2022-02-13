@@ -50,6 +50,15 @@ Hello, world!
 
 Make sure you use correct indenting. You can run it with command python3 src/hello_world.py. 
 
+### Exercise 2 (compliment)
+
+Fill in the stub solution to make the program work as follows. The program should ask the user for an input, and the print an answer as the examples below show.
+
+What country are you from? Sweden
+I have heard that Sweden is a beautiful country.
+
+What country are you from? Chile  
+I have heard that Chile is a beautiful country.
 
 
 
