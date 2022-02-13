@@ -49,6 +49,7 @@ Content has some:
    - sum of sqaures passing list
    - sum of sqaures passing arbitrary argument
    - the Euclidean distance
+  - rebind variables
   
   
 
