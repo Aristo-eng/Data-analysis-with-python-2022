@@ -42,3 +42,14 @@ Content has some:
 
  Added solution for different exercises in Python 
 
+### Exercise 1 (hello world)
+
+Fill in the missing piece in the solution stub file hello_world.py in folder src to make it print the following:
+
+Hello, world!
+
+Make sure you use correct indenting. You can run it with command python3 src/hello_world.py. 
+
+
+
+
