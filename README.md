@@ -121,3 +121,4 @@ Print the numbers in a field with width four, so that the numbers are nicely ali
 ### Exercise 5 (two dice)
 
 Let us consider throwing two dice. (A dice can give a value between 1 and 6.) Use two nested for loops in the main function to iterate through all possible combinations the pair of dice can give. There are 36 possible combinations. Print all those combinations as (ordered) pairs that sum to 5. For example, your printout should include the pair (2,3). Print one pair per line.
+
