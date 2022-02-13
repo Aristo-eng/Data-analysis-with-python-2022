@@ -38,6 +38,19 @@ Content has some:
 
  Go into recursivity in python. Implemented a factorial solution using recursivity. 
 
+  ## Week Three
+
+  - format printing
+  - decision making (if)
+  - repetitive tasks (loops)
+  - functions
+   - argument packing and unpacking
+   - named argument in function
+   - sum of sqaures passing list
+   - sum of sqaures passing arbitrary argument
+  
+  
+
  ## Exercises
 
  Added solution for different exercises in Python 
