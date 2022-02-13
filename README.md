@@ -48,6 +48,7 @@ Content has some:
    - named argument in function
    - sum of sqaures passing list
    - sum of sqaures passing arbitrary argument
+   - the Euclidean distance
   
   
 
