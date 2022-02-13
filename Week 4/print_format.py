@@ -23,3 +23,9 @@ print("%s concatenated with %s produces %s" % ("water", "melon", "water"+"melon"
 print("{0} concatenated with {1} produces {0}{1}".format("water", "melon"))
 print(f"{'water'} concatenated with {'melon'} produces {'water' + 'melon'}")
 
+print()
+#  We saw that the parameters of the print function were of form print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False). 
+
+print(1, 2, 3, end=' |', sep=' -*- ')
+print("first", "second", "third", end=' |', sep=' -*- ')
+
