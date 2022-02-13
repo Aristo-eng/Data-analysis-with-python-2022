@@ -8,3 +8,6 @@ def sum_of_squares(lst):
 print("The docsting is: ", sum_of_squares.__doc__)
 print(sum_of_squares([-2]))
 print(sum_of_squares([-2,4,5]))
+
+
+#This works perfectly! There is however some extra typing with the brackets around the lists. Let's see if we can do better:
