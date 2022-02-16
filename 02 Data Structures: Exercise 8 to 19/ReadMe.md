@@ -74,3 +74,32 @@ We can also modify a list by using mutating methods of the list class, namely th
 * and sort. 
 
 Try Python's help functionality to find more about these methods: e.g. help(list.extend) or help(list).
+
+## Generating numerical sequences
+
+Trivial lists can be tedious to write: [0,1,2,3,4,5,6]. The function range creates numeric ranges automatically. The above sequence can be generated with the function call range(7). Note again that then end value is not included in the sequence. An example of using the range function:
+
+L=range(3)
+for i in L:
+    print(i)
+Note that L is not a list!
+print(L)
+
+0
+1
+2
+range(0, 3)
+
+So L is not a list, but it is a sequence. We can for instace access its last element with L[-1]. If really needed, then it can be converted to a list with the list constructor:
+
+L=range(10)
+print(list(L))
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+The range function works in similar fashion as slices. So, for instance the step of the sequence can be given:
+
+print(list(range(0, 7, 2)))
+
+[0, 2, 4, 6]
+Sorting sequences
