@@ -167,4 +167,18 @@ Give radius of the circle: 10
 The area is 314.159265
 Choose a shape (triangle, rectangle, circle): 
 
+### Exercise 8 (solve quadratic)
+
+In mathematics, the quadratic equation $ax2+bx+c=0$ can be solved with the formula $x=\frac{-b\pm \sqrt{b^2 -4ac}}{2a}$
+
+​​
+
+Write a function solve_quadratic, that returns both solutions of a generic quadratic as a pair (2-tuple) when the coefficients are given as parameters. It should work like this:
+
+print(solve_quadratic(1,-3,2))<br>
+(2.0,1.0)<br>
+print(solve_quadratic(1,2,1))<br>
+(-1.0,-1.0)<br>
+
+You may want to use the math.sqrt function from the math module in your solution. Test that your function works in the main function!
 
