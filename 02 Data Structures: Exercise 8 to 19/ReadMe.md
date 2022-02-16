@@ -103,3 +103,25 @@ print(list(range(0, 7, 2)))
 
 [0, 2, 4, 6]
 Sorting sequences
+
+## Sorting sequences
+
+In Python there are two ways to sort sequences. The sort method modifies the original list, whereas the sorted function returns a new sorted list and leaves the original intact. A couple of examples will demonstrate this:
+
+L=[5,3,7,1]
+L.sort()      # here we call the sort method of the object L
+print(L)
+L2=[6,1,7,3,6]
+print(sorted(L2))
+print(L2)
+
+[1, 3, 5, 7]
+[1, 3, 6, 6, 7]
+[6, 1, 7, 3, 6]
+
+The parameter reverse=True can be given (both to sort and sorted) to get descending order of elements:
+
+L=[5,3,7,1]
+print(sorted(L, reverse=True))
+
+[7, 5, 3, 1]
