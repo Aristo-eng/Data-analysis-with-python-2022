@@ -46,3 +46,31 @@ Note that Python ranges exclude the last index. The generic form of a slice is s
 print([0,1,2,3,4,5,6,7,8,9][::3])
 
 [0, 3, 6, 9]
+
+## Modifying lists
+
+We can assign values to elements of a list by indexing or by slicing. An example:
+
+L=[11,13,22,32]
+L[2]=10          # Changes the third element
+print(L)
+
+[11, 13, 10, 32]
+
+Or we can assign a list to a slice:
+
+L[1:3]=[4]
+print(L)
+
+[11, 4, 32]
+
+We can also modify a list by using mutating methods of the list class, namely the methods:
+* append, 
+* extend,
+* insert,
+* remove,
+* pop, 
+* reverse, 
+* and sort. 
+
+Try Python's help functionality to find more about these methods: e.g. help(list.extend) or help(list).
