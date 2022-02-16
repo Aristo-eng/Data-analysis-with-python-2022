@@ -33,3 +33,16 @@ List, tuples, and strings are called sequences in Python, and they have several
 - Note that the indexing begins from 0
 - Negative integers start indexing from the end: -1 refers to the last element, -2 refers to the second last, and so on
 
+
+Above we saw that we can access a single element of a sequence using indexing. If we want a subsequence of a sequence, we can use the slicing syntax. A slice consists of elements of the original sequence, and it is itself a sequence as well. A simple slice is a range of elements:
+
+s="abcdefg"
+s[1:4]
+
+'bcd'
+
+Note that Python ranges exclude the last index. The generic form of a slice is sequence[first:last:step]. If any of the three parameters are left out, they are set to default values as follows: first=0, last=len(L), step=1. So, for instance "abcde"[1:]=="bcde". The step parameter selects elements that are step distance apart from each other. For example:
+
+print([0,1,2,3,4,5,6,7,8,9][::3])
+
+[0, 3, 6, 9]
