@@ -124,3 +124,23 @@ Print the numbers in a field with width four, so that the numbers are nicely ali
 
 Let us consider throwing two dice. (A dice can give a value between 1 and 6.) Use two nested for loops in the main function to iterate through all possible combinations the pair of dice can give. There are 36 possible combinations. Print all those combinations as (ordered) pairs that sum to 5. For example, your printout should include the pair (2,3). Print one pair per line.
 
+### Exercise 6 (triple square)
+
+Write two functions: triple and square. Function triple multiplies its parameter by three. Function square raises its parameter to the power of two. For example, we have equalities triple(5)==15 and square(5)==25.
+
+Part 1.
+
+In the main function write a for loop that iterates through values 1 to 10, and for each value prints its triple and its square. The output should be as follows:
+
+triple(1)==3 square(1)==1
+triple(2)==6 square(2)==4
+...
+
+Part 2.
+
+Now modify this for loop so that it stops iteration when the square of a value is larger than the triple of the value, without printing anything in the last iteration.
+
+Note that the test cases check that both functions triple and square are called exactly once per iteration.
+
+
+
